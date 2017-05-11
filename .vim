@@ -1,1 +1,0 @@
-/home/frt/.vim

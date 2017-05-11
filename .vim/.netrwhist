@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/frt/projetos/55delivery'
+let g:netrw_dirhist_2='/home/frt/projetos/55delivery/templates'
+let g:netrw_dirhist_3='/home/frt/projetos/happyscheduler/config'
+let g:netrw_dirhist_4='/home/frt/projetos/happyscheduler/templates'
+let g:netrw_dirhist_5='/home/frt/projetos/happyscheduler'
+let g:netrw_dirhist_6='/home/frt/projetos/happyscheduler/config'

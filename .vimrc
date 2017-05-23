@@ -14,6 +14,7 @@ Plugin 'pbrisbin/vim-syntax-shakespeare'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'itchyny/vim-haskell-indent'
 Plugin 'eagletmt/neco-ghc'
+Plugin 'leafgarland/typescript-vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

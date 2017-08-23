@@ -41,6 +41,7 @@ set shiftround                  "Round indent to nearest shiftwidth multiple
 set cindent     " stricter rules for C programs
 set pastetoggle=<F2>
 set hlsearch
+colorscheme elflord
 
 " syntastic options
 set statusline+=%#warningmsg#

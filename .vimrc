@@ -27,6 +27,9 @@ highlight Visual term=reverse cterm=NONE ctermbg=White ctermfg=NONE guibg=White 
 " highlight line under the cursor
 set cursorline
 
+" matching parentesis highlight colors
+highlight MatchParen cterm=bold ctermbg=none ctermfg=LightGreen
+
 " syntastic options
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}

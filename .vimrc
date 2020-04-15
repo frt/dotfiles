@@ -19,7 +19,13 @@ set background=dark
 let g:solarized_termtrans=1
 colorscheme solarized
 syntax on
-highlight Visual cterm=NONE ctermbg=0 ctermfg=NONE guibg=Grey40
+
+" selection colors
+"highlight Visual cterm=NONE ctermbg=0 ctermfg=NONE guibg=Grey40
+highlight Visual term=reverse cterm=NONE ctermbg=White ctermfg=NONE guibg=White guifg=NONE
+
+" highlight line under the cursor
+set cursorline
 
 " syntastic options
 set statusline+=%#warningmsg#

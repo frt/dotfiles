@@ -44,7 +44,22 @@ let g:syntastic_check_on_wq = 0
 let g:airline_theme = 'solarized'
 let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_powerline_fonts = 1
 
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
+
+" Mappings to access buffers.
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>
+map <C-g> :e#<CR>
+nnoremap <Leader>1 :1b<CR>
+nnoremap <Leader>2 :2b<CR>
+nnoremap <Leader>3 :3b<CR>
+nnoremap <Leader>4 :4b<CR>
+nnoremap <Leader>5 :5b<CR>
+nnoremap <Leader>6 :6b<CR>
+nnoremap <Leader>7 :7b<CR>
+nnoremap <Leader>8 :8b<CR>
+nnoremap <Leader>9 :9b<CR>

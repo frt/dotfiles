@@ -63,3 +63,6 @@ nnoremap <Leader>6 :6b<CR>
 nnoremap <Leader>7 :7b<CR>
 nnoremap <Leader>8 :8b<CR>
 nnoremap <Leader>9 :9b<CR>
+
+" Dart indentation
+let g:dart_style_guide = 2

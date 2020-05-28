@@ -28,3 +28,6 @@
 [submodule ".vim/pack/plugins/start/vim-polyglot"]
 	path = .vim/pack/plugins/start/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule ".vim/pack/plugins/start/dart-vim-flutter-layout"]
+	path = .vim/pack/plugins/start/dart-vim-flutter-layout
+	url = https://github.com/tiagofumo/dart-vim-flutter-layout.git

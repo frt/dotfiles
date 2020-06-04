@@ -7,9 +7,11 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/frt/.zshrc'
 
-autoload -Uz compinit
+autoload -Uz compinit promptinit
 compinit
 # End of lines added by compinstall
+promptinit
+prompt agnoster
 
 # Fish-like syntax highlighting, autosugestions
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -27,5 +29,3 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 if [ $TILIX_ID ] || [ $VTE_VERSION ]; then
         source /etc/profile.d/vte.sh
 fi
-
-prompt agnoster

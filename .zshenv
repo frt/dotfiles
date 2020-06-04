@@ -10,4 +10,7 @@ typeset -U PATH path
 # set PATH so it includes flutter if it exists
 [ -d "$HOME/repos/flutter/bin" ] && path=("$HOME/repos/flutter/bin" "$path[@]")
 
-export PATH
+# set FPATH for my themes
+[ -d "$HOME/.zprompts" ] && fpath=("$HOME/.zprompts" "$fpath[@]")
+
+export PATH FPATH

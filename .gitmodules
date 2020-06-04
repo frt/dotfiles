@@ -31,3 +31,6 @@
 [submodule ".vim/pack/plugins/start/dart-vim-flutter-layout"]
 	path = .vim/pack/plugins/start/dart-vim-flutter-layout
 	url = https://github.com/tiagofumo/dart-vim-flutter-layout.git
+[submodule "zsh/theme/agnoster"]
+	path = zsh/theme/agnoster
+	url = https://github.com/agnoster/agnoster-zsh-theme.git

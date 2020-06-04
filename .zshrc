@@ -11,8 +11,9 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-# Fish-like syntax highlighting
+# Fish-like syntax highlighting and autosugestions
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # pkgfile "command not found" handler
 source /usr/share/doc/pkgfile/command-not-found.zsh

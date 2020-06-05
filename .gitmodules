@@ -34,3 +34,6 @@
 [submodule "zsh/theme/agnoster"]
 	path = zsh/theme/agnoster
 	url = https://github.com/agnoster/agnoster-zsh-theme.git
+[submodule "zsh/theme/alien"]
+	path = zsh/theme/alien
+	url = https://github.com/eendroroy/alien.git

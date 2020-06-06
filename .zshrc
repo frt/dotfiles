@@ -18,7 +18,7 @@ export ALIEN_VERSIONS_PROMPT='PYTHON'
 export ALIEN_USE_NERD_FONT=1
 export ALIEN_GIT_SYM=G
 export ALIEN_BRANCH_SYM=
-source .zprompts/prompt_alien_setup
+source ~/.zprompts/prompt_alien_setup
 
 # Fish-like syntax highlighting, autosugestions
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

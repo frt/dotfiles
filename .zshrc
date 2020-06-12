@@ -18,6 +18,7 @@ export ALIEN_VERSIONS_PROMPT='PYTHON'
 export ALIEN_USE_NERD_FONT=1
 export ALIEN_GIT_SYM=G
 export ALIEN_BRANCH_SYM=
+export ALIEN_SECTION_TIME_FORMAT='%X'
 source ~/.zprompts/prompt_alien_setup
 
 # Fish-like syntax highlighting, autosugestions

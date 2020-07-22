@@ -19,6 +19,7 @@ set background=dark
 let g:solarized_termtrans=1
 colorscheme solarized
 syntax on
+set foldmethod=syntax
 
 " selection colors
 "highlight Visual cterm=NONE ctermbg=0 ctermfg=NONE guibg=Grey40

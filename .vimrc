@@ -49,7 +49,11 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_powerline_fonts = 1
 
 " NerdTree
+let NERDTreeQuitOnOpen = 1
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeMinimalUI = 1
 map <C-n> :NERDTreeToggle<CR>
+nnoremap <silent> <C-f> :NERDTreeFind<CR>
 
 " Mappings to access buffers.
 map <C-J> :bnext<CR>

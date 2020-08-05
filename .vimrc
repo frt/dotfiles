@@ -71,3 +71,6 @@ nnoremap <Leader>9 :9b<CR>
 
 " Dart indentation
 let g:dart_style_guide = 2
+
+" clang_complete
+let g:clang_use_library = 1

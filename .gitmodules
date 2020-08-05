@@ -31,3 +31,6 @@
 [submodule ".vim/pack/plugins/start/dart-vim-flutter-layout"]
 	path = .vim/pack/plugins/start/dart-vim-flutter-layout
 	url = https://github.com/tiagofumo/dart-vim-flutter-layout.git
+[submodule ".vim/pack/plugins/start/vim-autotag"]
+	path = .vim/pack/plugins/start/vim-autotag
+	url = git://github.com/craigemery/vim-autotag.git

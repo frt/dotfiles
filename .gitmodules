@@ -34,3 +34,6 @@
 [submodule ".vim/pack/plugins/start/vim-autotag"]
 	path = .vim/pack/plugins/start/vim-autotag
 	url = git://github.com/craigemery/vim-autotag.git
+[submodule ".vim/pack/plugins/start/clang_complete"]
+	path = .vim/pack/plugins/start/clang_complete
+	url = https://github.com/xavierd/clang_complete.git

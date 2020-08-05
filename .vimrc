@@ -51,7 +51,7 @@ let g:airline_powerline_fonts = 1
 " NerdTree
 let NERDTreeQuitOnOpen = 1
 let NERDTreeAutoDeleteBuffer = 1
-let NERDTreeMinimalUI = 1
+"let NERDTreeMinimalUI = 1
 map <C-n> :NERDTreeToggle<CR>
 nnoremap <silent> <C-f> :NERDTreeFind<CR>
 

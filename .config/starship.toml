@@ -7,3 +7,10 @@ style = "bold red"
 [[battery.display]]  # "bold red" style when capacity is between 0% and 10%
 threshold = 20
 style = "yellow"
+
+[git_status]
+staged.style = "green"
+staged_count.enabled = true
+staged_count.style = "green"
+show_sync_count = true
+style = "red"

@@ -32,6 +32,9 @@ highlight Visual term=reverse cterm=NONE ctermbg=White ctermfg=NONE guibg=White 
 " highlight line under the cursor
 set cursorline
 
+" highlight the column after textwidth
+set colorcolumn=+1
+
 " matching parentesis highlight colors
 highlight MatchParen cterm=bold ctermbg=none ctermfg=LightGreen
 

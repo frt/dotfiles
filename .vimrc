@@ -79,3 +79,8 @@ let g:dart_style_guide = 2
 " clang_complete
 let g:clang_use_library = 1
 let g:clang_close_preview = 1
+
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
+let g:tagbar_sort = 0
+let g:tagbar_autoclose = 1

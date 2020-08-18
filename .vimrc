@@ -59,8 +59,8 @@ let g:airline_powerline_fonts = 1
 let NERDTreeQuitOnOpen = 1
 let NERDTreeAutoDeleteBuffer = 1
 "let NERDTreeMinimalUI = 1
-map <C-n> :NERDTreeToggle<CR>
-nnoremap <silent> <C-f> :NERDTreeFind<CR>
+nnoremap <F3> :NERDTreeToggle<CR>
+nnoremap <silent> <leader>nf :NERDTreeFind<CR>
 
 " Mappings to access buffers.
 map <C-J> :bnext<CR>
@@ -84,6 +84,6 @@ let g:clang_use_library = 1
 let g:clang_close_preview = 1
 
 " Tagbar
-nmap <F8> :TagbarToggle<CR>
+nnoremap <F4> :TagbarToggle<CR>
 let g:tagbar_sort = 0
 let g:tagbar_autoclose = 1

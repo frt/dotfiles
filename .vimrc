@@ -52,29 +52,19 @@ let g:syntastic_check_on_wq = 0
 let g:airline_theme = 'solarized'
 let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline_powerline_fonts = 1
 
 " NerdTree
 let NERDTreeQuitOnOpen = 1
 let NERDTreeAutoDeleteBuffer = 1
 "let NERDTreeMinimalUI = 1
-nnoremap <F3> :NERDTreeToggle<CR>
+nnoremap <silent> <F2> :NERDTreeToggle<CR>
 nnoremap <silent> <leader>nf :NERDTreeFind<CR>
 
 " Mappings to access buffers.
-map <C-J> :bnext<CR>
-map <C-K> :bprev<CR>
-map <C-g> :e#<CR>
-nnoremap <Leader>1 :1b<CR>
-nnoremap <Leader>2 :2b<CR>
-nnoremap <Leader>3 :3b<CR>
-nnoremap <Leader>4 :4b<CR>
-nnoremap <Leader>5 :5b<CR>
-nnoremap <Leader>6 :6b<CR>
-nnoremap <Leader>7 :7b<CR>
-nnoremap <Leader>8 :8b<CR>
-nnoremap <Leader>9 :9b<CR>
+nnoremap <silent> <C-k> :bnext<CR>
+nnoremap <silent> <C-j> :bprev<CR>
+nnoremap <silent> <C-b> :silent! e#<CR>
 
 " Dart indentation
 let g:dart_style_guide = 2
@@ -84,6 +74,6 @@ let g:clang_use_library = 1
 let g:clang_close_preview = 1
 
 " Tagbar
-nnoremap <F4> :TagbarToggle<CR>
+nnoremap <silent> <F4> :TagbarToggle<CR>
 let g:tagbar_sort = 0
 let g:tagbar_autoclose = 1

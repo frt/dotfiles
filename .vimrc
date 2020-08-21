@@ -14,11 +14,13 @@ filetype plugin indent on
 
 set pastetoggle=<F2>
 
+set visualbell
 set hlsearch
 set background=dark
 let g:solarized_termtrans=1
 colorscheme solarized
 syntax on
+
 set foldmethod=syntax
 set foldlevel=3
 

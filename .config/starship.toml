@@ -9,11 +9,15 @@ threshold = 20
 style = "yellow"
 
 [git_status]
-staged.style = "green"
-staged_count.enabled = true
-staged_count.style = "green"
-show_sync_count = true
-style = "red"
+conflicted = "[=$count](bold red)"
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+untracked = "[?](red)"
+modified = "[!](red)"
+staged = "[+](green)"
+renamed = "[»](green)"
+style = "gray"
 
 [custom.git_user_email]
 command = "git config user.email"

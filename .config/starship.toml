@@ -14,3 +14,8 @@ staged_count.enabled = true
 staged_count.style = "green"
 show_sync_count = true
 style = "red"
+
+[custom.git_user_email]
+command = "git config user.email"
+description = "The author e-mail for commits"
+directories = [".git"]

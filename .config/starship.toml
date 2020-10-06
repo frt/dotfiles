@@ -10,14 +10,16 @@ style = "yellow"
 
 [git_status]
 conflicted = "[=$count](bold red)"
-ahead = "⇡${count}"
-behind = "⇣${count}"
-diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+ahead = "[⇡${count}](bright-white)"
+behind = "[⇣${count}](bright-white)"
+diverged = "[⇕⇡${ahead_count}⇣${behind_count}](bright-white)"
 untracked = "[?](red)"
 modified = "[!](red)"
 staged = "[+](green)"
 renamed = "[»](green)"
-style = "gray"
+stashed = "[$](bright-white)"
+deleted = "[✘](bright-white)"
+style = "#fca326"
 
 [custom.git_user_email]
 command = "git config user.email"

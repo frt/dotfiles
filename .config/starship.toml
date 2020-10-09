@@ -17,11 +17,11 @@ untracked = "[?](red)"
 modified = "[!](red)"
 staged = "[+](green)"
 renamed = "[»](green)"
-stashed = "[$](bright-white)"
+stashed = "[\\$](bright-white)"
 deleted = "[✘](bright-white)"
 style = "#fca326"
 
 [custom.git_user_email]
 command = "git config user.email"
 description = "The author e-mail for commits"
-directories = [".git"]
+when = "[ -d .git ] || git rev-parse --is-inside-work-tree > /dev/null 2>&1"

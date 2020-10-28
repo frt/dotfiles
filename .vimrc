@@ -24,18 +24,12 @@ syntax on
 set foldmethod=syntax
 set foldlevel=3
 
-" show line numbers
-set number
-
 " selection colors
 "highlight Visual cterm=NONE ctermbg=0 ctermfg=NONE guibg=Grey40
 highlight Visual term=reverse cterm=NONE ctermbg=White ctermfg=NONE guibg=White guifg=NONE
 
 " highlight line under the cursor
 set cursorline
-
-" highlight the column after textwidth
-set colorcolumn=+1
 
 " matching parentesis highlight colors
 highlight MatchParen cterm=bold ctermbg=none ctermfg=LightGreen

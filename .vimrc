@@ -73,7 +73,8 @@ let g:dart_style_guide = 2
 
 " clang_complete
 let g:clang_use_library = 1
-let g:clang_close_preview = 1
+let g:clang_snippets = 1
+let g:clang_complete_macros = 1
 
 " Tagbar
 nnoremap <silent> <F4> :TagbarToggle<CR>

@@ -25,3 +25,6 @@ style = "#fca326"
 command = "git config user.email"
 description = "The author e-mail for commits"
 when = "[ -d .git ] || git rev-parse --is-inside-work-tree > /dev/null 2>&1"
+
+[dotnet]
+disabled = true

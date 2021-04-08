@@ -1,16 +1,17 @@
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
-bindkey -v
+HISTSIZE=10000
+SAVEHIST=10000
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/frt/.zshrc'
 
-autoload -Uz compinit promptinit
+autoload -Uz compinit promptinit select-word-style colors
 compinit
 # End of lines added by compinstall
 promptinit
+select-word-style shell
+colors
 
 # Fish-like syntax highlighting, autosugestions
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

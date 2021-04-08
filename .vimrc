@@ -58,8 +58,8 @@ nnoremap <silent> <F2> :NERDTreeToggle<CR>
 nnoremap <silent> <leader>nf :NERDTreeFind<CR>
 
 " Mappings to access buffers.
-nnoremap <silent> <C-k> :bnext<CR>
-nnoremap <silent> <C-j> :bprev<CR>
+nnoremap <silent> <C-h> :bprev<CR>
+nnoremap <silent> <C-l> :bnext<CR>
 nnoremap <silent> <C-b> :silent! e#<CR>
 
 " Dart indentation

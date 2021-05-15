@@ -45,7 +45,7 @@ let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 
 " vim-airline options
-let g:airline_theme = 'solarized'
+let g:airline_theme = 'simple'
 let g:airline_solarized_bg='dark'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
@@ -54,7 +54,7 @@ let g:airline_powerline_fonts = 1
 let NERDTreeQuitOnOpen = 1
 let NERDTreeAutoDeleteBuffer = 1
 "let NERDTreeMinimalUI = 1
-nnoremap <silent> <F2> :NERDTreeToggle<CR>
+nnoremap <silent> <leader>nt :NERDTreeToggle<CR>
 nnoremap <silent> <leader>nf :NERDTreeFind<CR>
 
 " Mappings to access buffers.
@@ -71,6 +71,6 @@ let g:clang_snippets = 1
 let g:clang_complete_macros = 1
 
 " Tagbar
-nnoremap <silent> <F4> :TagbarToggle<CR>
+nnoremap <silent> <leader>tt :TagbarToggle<CR>
 let g:tagbar_sort = 0
 let g:tagbar_autoclose = 1

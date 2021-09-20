@@ -20,6 +20,7 @@ set background=dark
 let g:solarized_termtrans=1
 colorscheme solarized
 syntax on
+set splitbelow
 
 set foldmethod=syntax
 set foldlevel=3

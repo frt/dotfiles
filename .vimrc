@@ -75,3 +75,10 @@ let g:clang_complete_macros = 1
 nnoremap <silent> <leader>tt :TagbarToggle<CR>
 let g:tagbar_sort = 0
 let g:tagbar_autoclose = 1
+
+" ack.vim
+" use ag (the_silver_searcher)
+if executable('ag')
+    let g:ackprg = 'ag --vimgrep'
+endif
+cnoreabbrev ag Ack!

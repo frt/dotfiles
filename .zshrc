@@ -1,3 +1,6 @@
+# black background
+echo -e '\e]11;rgb:0/0/0\a'
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=10000
@@ -27,3 +30,7 @@ fi
 
 # https://starship.rs/guide/#%F0%9F%9A%80-installation
 eval "$(starship init zsh)"
+
+alias vi="nvim"
+
+source /usr/share/nvm/init-nvm.sh

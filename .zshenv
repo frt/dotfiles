@@ -14,3 +14,5 @@ typeset -U PATH path
 [ -d "$HOME/.zprompts" ] && fpath=("$HOME/.zprompts" "$fpath[@]")
 
 export PATH FPATH
+export EDITOR=nvim
+export VISUAL=nvim

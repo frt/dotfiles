@@ -8,6 +8,7 @@ SAVEHIST=10000
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/frt/.zshrc'
+zstyle ':grml:chpwd:dirstack' enable false
 
 autoload -Uz compinit promptinit select-word-style colors
 compinit

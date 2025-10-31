@@ -1,5 +1,8 @@
 add_newline = false
 
+[battery]
+disabled = true
+
 #[[battery.display]]  # "bold red" style when capacity is between 0% and 10%
 #threshold = 10
 #style = "bold red"
